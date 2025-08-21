@@ -1,20 +1,13 @@
 {
-  "name": "vite-react-typescript-starter",
+  "name": "smart-market-retail-nextjs",
   "private": true,
   "version": "0.0.0",
-  "type": "module",
   "scripts": {
-    "dev": "vite",
-    "dev:ssr": "tsx server/index.ts",
-    "build": "npm run build:client && npm run build:ssr",
-    "build:client": "vite build --outDir dist/client",
-    "build:ssr": "vite build --ssr src/entry-server.tsx --outDir dist/server",
-    "build:dev": "vite build --mode development",
-    "serve": "NODE_ENV=production node dist/server/index.js",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "build:data": "tsc src/components/serviceAreaData.ts --outDir scripts/data --module NodeNext --target ES2020",
-    "generate-sitemap": "echo \"Please run the command from the instructions and paste your keys directly.\""
+    "export": "next export"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.53.0",
@@ -25,8 +18,9 @@
     "lovable-tagger": "^1.1.9",
     "lucide-react": "^0.344.0",
     "marked": "^16.1.2",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
+    "next": "^15.5.0",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
     "react-helmet-async": "^2.0.5",
     "react-markdown": "^10.1.0",
     "react-router-dom": "^6.22.3",
