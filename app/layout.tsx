@@ -68,6 +68,10 @@ export default function RootLayout({
           <div className="flowing-waves"></div>
         </div>
         
+        <div id="animated-background" className="fixed inset-0 z-0 overflow-hidden">
+          <div className="flowing-waves"></div>
+        </div>
+        
         <form name="contact" netlify netlify-honeypot="bot-field" hidden>
           <input type="text" name="name" />
           <input type="email" name="email" />
