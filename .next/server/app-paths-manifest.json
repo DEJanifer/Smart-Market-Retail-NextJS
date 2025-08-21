@@ -2,5 +2,6 @@
   "/page": "app/page.js",
   "/_not-found/page": "app/_not-found/page.js",
   "/locations/page": "app/locations/page.js",
-  "/service-area/page": "app/service-area/page.js"
+  "/service-area/page": "app/service-area/page.js",
+  "/about/page": "app/about/page.js"
 }

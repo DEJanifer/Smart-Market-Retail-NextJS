@@ -779,6 +779,9 @@ p{
 .mb-16{
   margin-bottom: 4rem;
 }
+.mt-1{
+  margin-top: 0.25rem;
+}
 .line-clamp-2{
   overflow: hidden;
   display: -webkit-box;
@@ -988,6 +991,11 @@ p{
   --tw-space-y-reverse: 0;
   margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(1rem * var(--tw-space-y-reverse));
+}
+.space-y-6 > :not([hidden]) ~ :not([hidden]){
+  --tw-space-y-reverse: 0;
+  margin-top: calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(1.5rem * var(--tw-space-y-reverse));
 }
 .justify-self-end{
   justify-self: end;
@@ -1723,6 +1731,11 @@ section[id] {
   .md\:py-24{
     padding-top: 6rem;
     padding-bottom: 6rem;
+  }
+
+  .md\:py-32{
+    padding-top: 8rem;
+    padding-bottom: 8rem;
   }
 
   .md\:text-4xl{
