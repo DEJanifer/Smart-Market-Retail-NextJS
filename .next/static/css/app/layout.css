@@ -773,6 +773,12 @@ p{
 .mt-8{
   margin-top: 2rem;
 }
+.mb-1{
+  margin-bottom: 0.25rem;
+}
+.mb-16{
+  margin-bottom: 4rem;
+}
 .line-clamp-2{
   overflow: hidden;
   display: -webkit-box;
@@ -1197,6 +1203,10 @@ p{
 .text-xl{
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+.text-4xl{
+  font-size: 2.25rem;
+  line-height: 2.5rem;
 }
 .font-bold{
   font-weight: 700;
@@ -1663,6 +1673,10 @@ section[id] {
 }
 @media (min-width: 640px){
 
+  .sm\:grid-cols-2{
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .sm\:flex-row{
     flex-direction: row;
   }
@@ -1691,6 +1705,10 @@ section[id] {
 
   .md\:grid-cols-2{
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .md\:grid-cols-3{
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
   .md\:p-12{
