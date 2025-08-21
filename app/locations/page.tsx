@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import LocationPageContent from '../components/LocationPageContent';
+import Locations from '../components/Locations';
 
 export const metadata: Metadata = {
   title: 'Vending Locations - Office Buildings, Schools, Healthcare & More | Smart Market Retail',
@@ -8,5 +8,5 @@ export const metadata: Metadata = {
 };
 
 export default function LocationPage() {
-  return <LocationPageContent />;
+  return <Locations />;
 }
